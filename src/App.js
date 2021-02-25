@@ -1,6 +1,7 @@
 const App = () => (
   <div className="app">
-    <p>Skubba</p>
+    <h2>Sku Bare</h2>
+    <p>Under utvikling</p>
   </div>
 );
 
