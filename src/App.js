@@ -10,7 +10,7 @@ const App = () => (
       <nav className="navbar__routes">
 
         <ul>
-
+{/* 
           <li><Link to="/">Hjem</Link></li>
 
           <li><Link to="/meny">Meny</Link></li>
@@ -19,7 +19,7 @@ const App = () => (
 
           <li><Link to="/corona">Corona</Link></li>
 
-          <li><Link to="/om-oss">Om oss</Link></li>
+          <li><Link to="/om-oss">Om oss</Link></li> */}
 
         </ul>
 
