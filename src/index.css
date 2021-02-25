@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap');
+
 body {
   margin: 0;
   padding: 50px 0;
@@ -8,6 +9,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
 .app {
   display: flex;
   flex-direction: column;
@@ -19,4 +21,25 @@ body {
 
 .app h2 {
   font-size: 3em;
+}
+
+.navbar__routes ul {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  list-style-type: none;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.navbar__routes a {
+  color: black;
+  text-decoration: none;
+  font-weight: 650;
+  padding: 0 5em 0 5em;
+}
+
+.navbar__routes a:hover {
+  color: #36454f;
 }
