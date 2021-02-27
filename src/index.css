@@ -10,7 +10,8 @@ body {
   background-color: black;
 }
 
-.navbar__routes ul {
+.navbar__routes ul,
+.footer__author ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -19,15 +20,31 @@ body {
   margin: 0;
 }
 
-.navbar__routes a {
-  color: #cca000;
+.navbar__routes a,
+.footer__author {
   text-decoration: none;
+  list-style-type: none;
+}
+
+.navbar__routes a {
+  color: white;
   font-weight: 650;
   padding: 0 5em 0 5em;
 }
 
 .navbar__routes a:hover {
   color: #36454f;
+}
+
+.footer__author {
+  color: white;
+  animation: 2s ease-out 0s 1 fadeInUp;
+}
+
+.footer__links {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 

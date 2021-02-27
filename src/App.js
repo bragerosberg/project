@@ -3,6 +3,7 @@ import { HashRouter as Routes, Switch, Route, Link } from 'react-router-dom';
 import Home from './components/home';
 import Covid from './components/covid';
 import AboutUs from './components/aboutus';
+import Footer from './Footer';
 import './index.css';
 
 const App = () => (
@@ -38,6 +39,10 @@ const App = () => (
         </Route>
 
       </Switch>
+
+      <section className="footer__links">
+        <Footer />
+      </section>
 
     </div>
   </Routes>
