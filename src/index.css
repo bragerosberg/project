@@ -1,7 +1,7 @@
 
 body {
   margin: 0;
-  padding: 50px 0;
+  padding: 1em;
   font-family: 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -13,7 +13,6 @@ body {
 .navbar__routes ul {
   display: flex;
   flex-wrap: wrap;
-
   justify-content: center;
   list-style-type: none;
   text-transform: uppercase;
@@ -21,7 +20,7 @@ body {
 }
 
 .navbar__routes a {
-  color: black;
+  color: #cca000;
   text-decoration: none;
   font-weight: 650;
   padding: 0 5em 0 5em;
@@ -44,7 +43,7 @@ body {
   .navbar__routes a,
   .navbar__routes a:hover {
     font-weight: 800;
-    padding: 1em;
+    padding: 0 1em 0 1em;
   }
 
   ul {

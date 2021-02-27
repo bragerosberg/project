@@ -1,6 +1,8 @@
 import React from 'react';
 import { HashRouter as Routes, Switch, Route, Link } from 'react-router-dom';
-import Home from './components/home/';
+import Home from './components/home';
+import Covid from './components/covid';
+import AboutUs from './components/aboutus';
 import './index.css';
 
 const App = () => (
@@ -11,21 +13,25 @@ const App = () => (
 
         <ul>
 
-          <li><Link to="/">Hjem</Link></li>
+          <li><Link to="/">Sku Bare</Link></li>
 
-          <li><Link to="/meny">Meny</Link></li>
+          <li><Link to="/covid">Covid</Link></li>
 
-          <li><Link to="/bilder">Bilder</Link></li>
-
-          <li><Link to="/corona">Corona</Link></li>
-
-          <li><Link to="/om-oss">Om oss</Link></li>
+          <li><Link to="/om-oss">Stillinger</Link></li>
 
         </ul>
 
       </nav>
 
       <Switch>
+
+        <Route path="/covid">
+          <Covid />
+        </Route>
+
+        <Route path="/om-oss">
+          <AboutUs />
+        </Route>
 
         <Route path="/">
           <Home />
