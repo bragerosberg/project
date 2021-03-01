@@ -18,3 +18,7 @@
 .app h4 {
   margin-top: .5em;
 }
+
+.app__illustration {
+  height: 200px;
+}
